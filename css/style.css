@@ -1,0 +1,451 @@
+/*72 does not work*/
+
+
+/*start the main rules*/
+
+body {
+    background-color: white;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+
+/*end the main rules*/
+
+
+/*start the header*/
+
+.slider {
+    background-image: url(../images/slider.jpg);
+    background-size: cover;
+    height: 800px;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.slider h1 {
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    padding: 8px;
+    width: 30%;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    border-style: solid none;
+}
+
+.navbar {
+    background-color: #252E30;
+    padding: 10px;
+}
+
+.navbar h2 {
+    margin: 0;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    float: left;
+}
+
+.navbar h2 span {
+    color: #2ECC71;
+}
+
+.navbar ul {
+    text-align: right;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline;
+    padding: 12px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a :hover {
+    color: #2ECC71;
+    text-decoration: none;
+}
+
+
+/*end the header*/
+
+
+/*start objectives*/
+
+.objectives {
+    background-color: white;
+}
+
+.objectives h2 {
+    text-transform: uppercase;
+}
+
+.objectives .obj {
+    width: 33.33%;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.objectives .obj h2 {
+    padding: 60px 0 0 10px;
+}
+
+.objectives .obj p {
+    padding: 10px;
+    line-height: 1.5;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+/*end objectives*/
+
+
+/*start about me*/
+
+.about_me {
+    font-family: 'Rubik', sans-serif;
+    background-color: #DDDDDD;
+    line-height: 1.5;
+    overflow: hidden;
+}
+
+.about_me h1,
+.about_me h3 {
+    text-transform: uppercase;
+}
+
+.about_me .contain .text p {
+    padding-left: 20px;
+}
+
+.about_me .par {
+    padding-left: 40px;
+}
+
+.about_me h1 {
+    padding-left: 40px;
+}
+
+.about_me .contain .text h3 {
+    padding-left: 20px;
+}
+
+.about_me .pic {
+    width: 40%;
+    float: left;
+    height: 500px;
+}
+
+.about_me .info {
+    width: 60%;
+    float: left;
+}
+
+.cons {
+    overflow: hidden;
+}
+
+.contain {
+    width: 50%;
+    float: left;
+}
+
+.contain .ima {
+    width: 15%;
+    float: left;
+}
+
+.contain .ima img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.contain .text {
+    width: 85%;
+    float: left;
+}
+
+.contain .text h3 {
+    padding-left: 10px;
+}
+
+
+/*end about me*/
+
+
+/*start my skills */
+
+.skills {
+    padding-top: 50pX;
+    line-height: 1.5;
+}
+
+.right {
+    width: 50%;
+    float: left;
+}
+
+.left {
+    width: 50%;
+    float: left;
+}
+
+.button {
+    font-family: 'Rubik', sans-serif;
+    color: #2ECC71;
+    font-size: x-large;
+    padding: 10px;
+    border-style: solid;
+    border-color: #2ECC71;
+    margin: 30px 0;
+    background-color: white;
+}
+
+.for_padding {
+    padding: 30px;
+}
+
+.right h2 {
+    font-family: 'Rubik', sans-serif;
+    padding-left: ;
+}
+
+.left h3 {
+    font-family: 'Rubik', sans-serif;
+    line-height: .75;
+    margin-top: 25px;
+    margin-bottom: 12px
+}
+
+.left p {
+    margin-top: 0;
+}
+
+.parent {
+    border-radius: 7px;
+    background-color: rgb(221, 221, 221);
+    height: 30px;
+    text-align: right;
+    color: white;
+    font-size: x-large;
+}
+
+.a90 {
+    border-radius: 7px;
+    width: 90%;
+    background-color: rgb(46, 204, 113);
+    height: 30px;
+}
+
+.a80 {
+    border-radius: 7px;
+    width: 80%;
+    background-color: rgb(46, 204, 113);
+    height: 30px;
+}
+
+.a70 {
+    border-radius: 7px;
+    width: 70%;
+    height: 30px;
+    background-color: rgb(46, 204, 113);
+}
+
+.parent span {
+    display: inline-block;
+}
+
+
+/*end my skills */
+
+
+/*start resume*/
+
+.resume {
+    background-color: #DDDDDD;
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.resume p {
+    padding: 0 70px;
+    line-height: 1.5;
+}
+
+.resume .button {
+    font-family: 'Rubik', sans-serif;
+    color: #2ECC71;
+    font-size: large;
+    padding: 10px;
+    border-style: solid;
+    border-color: #2ECC71;
+    margin: 30px 0;
+    background-color: white;
+}
+
+
+/*end resume*/
+
+
+/*start education*/
+
+.education h2,
+.education p {
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.5;
+}
+
+.education .gpa {
+    background-color: #2ECC71;
+    display: inline-block;
+    padding: 4px 6px;
+    margin: 0;
+    color: rgb(221, 221, 221);
+}
+
+.education .left {}
+
+.education .right {
+    padding-top: 20px;
+}
+
+.education .padding {
+    padding: 40px;
+}
+
+.education .part {
+    padding-top: 40px;
+}
+
+.education h3 {
+    font-family: 'Rubik', sans-serif;
+    padding-bottom: 0;
+}
+
+
+/*end education*/
+
+
+/*start quote*/
+
+.quote {
+    clear: both;
+    text-align: center;
+    background-color: #DDDDDD;
+    padding: 60px 180px;
+    line-height: 2;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.quote q {
+    display: inline-block;
+    width: 80%;
+    margin: auto;
+}
+
+
+/*end quote*/
+
+
+/*start portfolio*/
+
+.portfolio {
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    line-height: 2;
+}
+
+.portfolio p {
+    width: 80%;
+    margin: 0 auto 60px;
+}
+
+.portfolio .image {
+    width: 33.333%;
+    float: left;
+}
+
+.portfolio img {
+    width: 94%;
+    margin: 3%;
+}
+
+
+/*end portfolio*/
+
+
+/*start contact*/
+
+.contact {
+    clear: left;
+    line-height: 1.5;
+    font-family: 'Rubik', sans-serif;
+}
+
+.contact h2 {
+    font-size: x-large;
+    color: #252E30;
+}
+
+.contact .padding {
+    padding: 40px 30px 20px 60px;
+}
+
+.span {
+    font-weight: bold;
+}
+
+.contact .text {
+    width: 75%;
+    height: 33px;
+    background-color: #4B5456;
+}
+
+.contact .area {
+    width: 75%;
+    background-color: #4B5456;
+}
+
+.contact .last_button {
+    background-color: #191F21;
+    color: white;
+    width: 140px;
+    height: 60px;
+    padding: 6px 10px;
+    border-style: none;
+    margin-top: 40px;
+}
+
+
+/*end contact*/
+
+
+/*start footer*/
+
+.footer {
+    text-align: center;
+}
+
+.footer p {
+    color: white;
+    background-color: #191F21;
+    padding: 30px 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+/*end footer*/
