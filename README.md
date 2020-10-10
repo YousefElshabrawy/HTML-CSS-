@@ -1,5 +1,5 @@
 # Simple portfolio
-My second challenge in web development with Angela Yu.
+My second challenge in web development with Angela Yu on her Complete Full stack Bootcamp.
 ## 💻 Build with
 * HTML4
 * CSS2
